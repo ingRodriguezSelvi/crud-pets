@@ -1,9 +1,9 @@
 import { Application, Request, Response } from "express";
 
-import CoursesData from "../../data/courses.json";
-
 export const loadApiEndpoints = (app: Application): void => {
-  app.get("/api", (req: Request, res: Response) => {
-    return res.status(200).send(CoursesData);
-  });
+  // Get pets  api/pets
+  // Get pet by id api/pets/:id
+  // Create pet api/pets method: POST
+  // Update pet api/pets/:id method: PUT
+  // Delete pet api/pets/:id method: DELETE
 };
